@@ -1,0 +1,858 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+                  /*****Reen home page css start***********/
+
+
+
+/**********************  header section css start  *************************/
+
+
+.header-section{
+	width: 100%;
+}
+.top-header{
+  width: 100%;
+  padding: 10px 0px;
+  background: #F5F7FA;
+}
+.top-header .info-inner{
+	display: block;
+	 margin: 0px;
+}
+.top-header .info-inner li{
+	display: inline-block;
+	 
+	list-style: none;
+}
+.top-header .info-inner li a{
+	 font-size: 14px;
+	 font-weight:700;
+	 color: #506A85;
+	 margin-right: 15px;
+
+
+}
+.top-header .info-inner li a:hover{
+	text-decoration: none;
+}
+.top-header .info-inner li a .fa{
+     margin-right: 7px;
+}
+
+.top-header .social-icon{
+	display: block;
+	 margin: 0px;
+	 text-align: right;
+}
+.top-header .social-icon li{
+	display: inline-block;
+	list-style: none;
+	
+}
+.top-header .social-icon li a{
+	 font-size: 16px;
+	 color: #506A85;
+	 margin-right: 15px;
+
+}
+
+.top-header .social-icon li a .fa{
+	margin-right: 15px;
+
+}
+
+.header-section .bg-light {
+    background: #fff !important;
+    padding: 5px 0px;
+}
+
+.header-section .navbar-wrapper{
+    position: relative;
+    z-index: 15;
+}
+
+.isStuck{
+    left:0px;
+    width:100%;
+}
+
+
+.header-section .navbar-expand-lg .navbar-collapse {
+   
+    color:#506A85 !important;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-link {
+    color: #506A85;
+    font-weight: 600;
+    margin-left: 17px;
+}
+.header-section .search{
+	color:#506A85 !important;
+}
+
+.header-section  .navbar-light .navbar-nav .active > .nav-link {
+	color: #506A85 !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.header-section  .navbar-light .navbar-nav .nav-link:active,
+.header-section  .navbar-light .navbar-nav .nav-link:hover {
+    color: #00bc9c;
+    
+}
+
+
+.header-section .search .fa{
+	color: #506A85 !important;
+}
+
+
+
+
+/*********************   Slider code start  ***********************/
+
+
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider .carousel-caption h2{
+     font-size: 64px;
+     line-height: 74px;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+.slider .carousel-caption p{
+	 font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #A3B1BF;
+
+}
+
+.slider .button  a{
+    
+    text-decoration: none;
+   
+    background: #00BC9C !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    
+    text-transform: uppercase;
+    padding: 10px 35px;
+    
+    border: 1px solid #00BC9C;
+    border-radius: 2px;
+
+} 
+.slider .button  a:hover{
+ text-decoration: none;
+     color:#007bff;
+     background: transparent !important;
+     border: 1px solid #00BC9C;
+
+}
+.slider .button{
+	margin-top: 50px;
+}
+
+
+
+
+
+/*********************   Slider code end  ***********************/
+
+
+
+/*********************   who we are section start  ***********************/
+
+
+
+.who-section{
+	width: 100%,
+	
+}
+
+.who-section .tittle{
+	widows: 100%;
+	text-align: center;
+	padding:80px 0px;
+}
+.who-section .tittle h2{
+     font-size: 52px;
+     line-height: 62px;
+     font-weight: 700;
+     text-transform: capitalize;
+     letter-spacing: 2px;
+     color:#506A85;
+     margin-bottom: 20px;
+}
+.who-section .tittle p{
+     font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #A3B1BF;
+}
+
+.who-section .media{
+	width: 100%;
+}
+.who-section .media .media-body{
+	margin-left: 15px;
+}
+.who-section .media .media-body h5{
+     font-size: 18px;
+     line-height: 28px;
+     font-weight: 600;
+     color: #506A85;
+}
+
+.who-section .media .media-body p{
+     font-size: 14px;
+     line-height: 24px;
+     font-weight: 400;
+     color: #506A85;
+}
+
+
+
+/*********************   who we are section end  ***********************/
+
+
+
+
+/*********************   work section start  ***********************/
+
+.work-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #F2F5F7;
+	margin-top: 70px;
+}
+.work-section .tittle{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.work-section .tittle h2{
+     font-size: 52px;
+     line-height: 62px;
+     font-weight: 700;
+     text-transform: capitalize;
+     letter-spacing: 2px;
+     color:#506A85;
+     margin-bottom: 10px;
+     
+}
+.work-section .tittle p{
+     font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #A3B1BF;
+     text-align: center;
+}
+.work-section .card .card-img-top{
+	border-radius: 0px !important;
+}
+.work-section .card .card-body{
+	text-align: center;
+}
+.work-section .card .card-body h5{
+	font-size: 16px;
+     line-height: 28px;
+     font-weight: 600;
+     color: #506A85;
+     margin-bottom: 5px;
+}
+
+.work-section .card .card-body p{
+     font-size: 14px;
+     line-height: 24px;
+     font-weight: 400;
+     color: #A3B1BF;
+
+}
+
+.work-section .owl-carousel{
+	margin-top: 50px;
+}
+.work-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots 
+.owl-dot:hover span{
+            background: #00BC9C;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 25px;
+}
+
+
+
+/*********************   work section end  ***********************/
+
+
+/*********************   get-in-touch section start ***********************/
+
+
+
+
+.get-in-touch {
+	width:100%;
+	padding: 80px 0px;
+}
+.get-in-touch .tittle{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.get-in-touch .tittle h2{
+     font-size: 52px;
+     line-height: 62px;
+     font-weight: 600;
+  
+     letter-spacing: 2px;
+     color:#506A85;
+     margin-bottom: 10px;
+     
+}
+.get-in-touch .tittle p{
+     font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #A3B1BF;
+     text-align: center;
+     margin-top: 20px;
+}
+
+
+.get-in-touch .tittle .btn-info{
+    
+    text-decoration: none;
+   
+    background: #00BC9C !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    
+    border: 1px solid #00BC9C;
+    border-radius: 2px;
+
+} 
+.get-in-touch .tittle .btn-info:hover{
+ text-decoration: none;
+     color:#00BC9C !important;
+     background: transparent !important;
+     border: 1px solid #00BC9C;
+
+}
+
+
+/*********************   get-in-touch section end ***********************/
+
+.counter{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.counter .demo{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*********************   progress section start ***********************/
+.progress-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.swiper-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+
+}
+
+/*********************   footer section start ***********************/
+
+
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2F4052;
+}
+.footer .widget {
+	width: 100%;
+}
+.footer .widget h4{
+	color: #fff;
+	font-size: 18px;
+     line-height: 28px;
+     font-weight: 600;
+  text-transform: uppercase;
+     margin-bottom: 15px;
+}
+.footer .widget p{
+	color: #8695A4;
+	font-size: 14px;
+     line-height: 24px;
+     font-weight: 400;
+     margin-top: 10px;
+}
+.footer .widget .marr{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer .widget .link{
+	color: #8695A4;
+	font-size: 14px;
+     line-height: 24px;
+     font-weight: 700;
+     margin-top: 10px;
+}
+.footer .widget .link:hover{
+	text-decoration: none;
+	color:#00BC9C !important;
+}
+.footer .widget .link .fa{
+	margin-left: 15px;
+}
+
+.footer .widget .card-group{
+	margin-bottom: 5px;
+}
+.footer .widget .card{
+	margin:0px 5px;
+	border-radius: 0px;
+	border:0px solid;
+}
+.footer .widget .fa{
+	margin-right: 10px;
+
+}
+
+.footer .widget .form-inline .mx-sm-3 {
+   position: absolute;
+   margin-left: 0px !important; 
+   background: transparent;
+
+}
+.footer .widget .form-inline .form-control{
+	width: 285px;
+	background: #4E5C6C;
+	border: #4E5C6C;
+}
+
+
+.footer .widget .form-inline .btn-primary{
+	position: relative;
+	left:76%;
+	background:#00BC9C ;
+	border: #00BC9C;
+	color: #fff;
+	padding: 2px 8px;
+	font-weight: 700px;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+/*********************   footer section end ***********************/
+
+
+
+/*********************   main footer section start ***********************/
+ .main-footer{
+ 	width: 100%;
+ 	padding: 5px 0px;
+ 	background: #283645;
+ }
+ .main-footer p{
+	color: #8695A4;
+	font-size: 14px;
+     line-height: 24px;
+     font-weight: 400;
+     margin: 10px 0px;
+     
+    
+}
+.main-footer .nav .nav-link{
+	display: inline-block;
+	color: #8695A4;
+	font-size: 14px;
+     line-height: 24px;
+     font-weight: 400;
+     
+}
+
+/*********************   main footer section end ***********************/
+
+
+
+
+
+
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+/**********************     media quaries    ******************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .footer .widget .form-inline .btn-primary {
+    position: relative;
+    left: 59%;
+    background: #00BC9C;
+    border: #00BC9C;
+    color: #fff;
+    padding: 2px 8px;
+    font-weight: 700px;
+    border-radius: 2px;
+}
+.slider .button a {
+    text-decoration: none;
+    background: #00BC9C !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 9px 24px;
+    border: 1px solid #00BC9C;
+    border-radius: 2px;
+}
+
+
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: -32%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider .carousel-caption h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.slider .carousel-caption p {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #A3B1BF;
+}
+  .who-section .tittle h2 {
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #506A85;
+    margin-bottom: 20px;
+}
+.work-section .tittle h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #506A85;
+    margin-bottom: 10px;
+}
+.work-section .card{
+margin-bottom: 60px;
+}
+
+.get-in-touch .tittle h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #506A85;
+    margin-bottom: 10px;
+}
+
+
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .footer .widget .form-inline .btn-primary {
+    position: relative;
+    left: 59%;
+    background: #00BC9C;
+    border: #00BC9C;
+    color: #fff;
+    padding: 2px 8px;
+    font-weight: 700px;
+    border-radius: 2px;
+}
+.slider .button a {
+    text-decoration: none;
+    background: #00BC9C !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 9px 24px;
+    border: 1px solid #00BC9C;
+    border-radius: 2px;
+}
+
+
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: -32%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider .carousel-caption h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.slider .carousel-caption p {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #A3B1BF;
+}
+  .who-section .tittle h2 {
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #506A85;
+    margin-bottom: 20px;
+}
+.work-section .tittle h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #506A85;
+    margin-bottom: 10px;
+}
+.work-section .card{
+margin-bottom: 60px;
+}
+
+.get-in-touch .tittle h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #506A85;
+    margin-bottom: 10px;
+}
+  
+  
+}
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .footer .widget .form-inline .form-control {
+    width: 160px;
+    background: #4E5C6C;
+    border: #4E5C6C;
+  }
+  
+.footer .widget .form-inline .btn-primary {
+    position: relative;
+    left: 59%;
+    background: #00BC9C;
+    border: #00BC9C;
+    color: #fff;
+    padding: 1px 0px;
+    font-weight: 700px;
+    border-radius: 2px;
+}
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider .carousel-caption h2 {
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
