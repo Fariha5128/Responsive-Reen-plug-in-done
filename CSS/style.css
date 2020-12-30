@@ -842,9 +842,25 @@ margin-bottom: 60px;
 }
   
 }
+.get-in-touch{
+    z-index: 11;
+    position: relative;
+    color: #fff !important;
+}
 
+#particles-js{
+    position: absolute;
+    left: 0;
+    top: 2800px;
+    z-index: 0;
+}
 
-
+.progress-section{
+    position: relative;
+    z-index: 10;
+    color: #fff !important;
+   
+}
 
 
 

@@ -22,6 +22,9 @@
     <!-- animate.min.css CSS linking here-->
     <link rel="stylesheet" href="CSS/animate.css">
 
+     <!-- stickUp.min.css CSS linking here-->
+    <link rel="stylesheet" href="CSS/stickUp.min.css">
+
     <!-- gallery css plugin -->
     <link rel="stylesheet" href="CSS/simple-lightbox.min.css"  >
      <link href="CSS/simple-lightbox.css" rel="stylesheet" >
@@ -137,7 +140,7 @@
                     <div class="carousel-item active">
                       <img src="images/slider1.png" class="d-block w-100" alt="...">
                        <div class="carousel-caption">
-                      <h2>Made for Designers</h2>
+                      <h2>Made for<span class="text"> Designers</span></h2>
                       <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN <br>website template. Customize your site with versatile and easy to use features.</p>
                       <div class="button">
                       <a href="btn btn-info">Get Started Now</a>
@@ -196,7 +199,7 @@
                   <div class="row">
                     <div class="col-md-12 wow bounceInDown">
                       <div class="tittle">
-                       <h2>Beautiful. Clean. Responsive.</h2>
+                       <h2 >Beautiful. Clean. Responsive.</h2>
                        <p>REEN is a high-quality solution for those who want a beautiful website in no time.<br>It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it<br> doesn't matter. Your content will always looks its absolute best.</p>
                     </div>
                   </div>
@@ -214,7 +217,7 @@
                     </div>
                   </div>
 
-                    <div class="col-md-4 wow bounceInUP">
+                    <div class="col-md-4 wow bounceInUp">
                     <div class="media">
                       <img src="images/icon2.png" class="icons" alt="icon2">
                       <div class="media-body">
@@ -393,8 +396,8 @@
      <div class="container">
        <div class="row">
          <div class="col-md-12">
-           <h6>Smooth (Auto Start)</h6>
-              <code>$('...').progressBarTimer({ autoStart: true, smooth: true });</code>
+           <h2><span class="text-typed">Followers are increasing!</span></h2>
+              <!-- <code>$('...').progressBarTimer({ autoStart: true, smooth: true });</code> -->
               <div id="example6"></div>
          </div>
        </div>
@@ -618,6 +621,96 @@
 
     <script src="js/main.js"></script>
 
+    <script src="js/typed.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+
+<script type="text/javascript">
+  var typed = new Typed('.text-typed', {
+    /**
+     * @property {array} strings strings to be typed
+     * @property {string} stringsElement ID of element containing string children
+     */
+    strings: [
+      'Subscribe us',
+      'Follow us',
+      'Popularity is increasing!',
+      'Stay Tuned!'
+    ],
+    stringsElement: null,
+
+    /**
+     * @property {number} typeSpeed type speed in milliseconds
+     */
+    typeSpeed: 100,
+
+    /**
+     * @property {number} startDelay time before typing starts in milliseconds
+     */
+    startDelay: 0,
+
+    /**
+     * @property {number} backSpeed backspacing speed in milliseconds
+     */
+    backSpeed: 100,
+
+    /**
+     * @property {boolean} smartBackspace only backspace what doesn't match the previous string
+     */
+    smartBackspace: true,
+
+    /**
+     * @property {boolean} shuffle shuffle the strings
+     */
+    shuffle: false,
+
+    /**
+     * @property {number} backDelay time before backspacing in milliseconds
+     */
+    backDelay: 700,
+
+    /**
+     * @property {boolean} fadeOut Fade out instead of backspace
+     * @property {string} fadeOutClass css class for fade animation
+     * @property {boolean} fadeOutDelay Fade out delay in milliseconds
+     */
+    fadeOut: false,
+    fadeOutClass: 'typed-fade-out',
+    fadeOutDelay: 500,
+
+    /**
+     * @property {boolean} loop loop strings
+     * @property {number} loopCount amount of loops
+     */
+    loop: true,
+    loopCount: Infinity,
+
+    /**
+     * @property {boolean} showCursor show cursor
+     * @property {string} cursorChar character for cursor
+     * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
+     */
+    showCursor: true,
+    cursorChar: '|',
+    autoInsertCss: true,
+
+    /**
+     * @property {string} attr attribute for typing
+     * Ex: input placeholder, value, or just HTML text
+     */
+    attr: null,
+
+    /**
+     * @property {boolean} bindInputFocusEvents bind to focus and blur if el is text input
+     */
+    bindInputFocusEvents: false,
+
+    /**
+     * @property {string} contentType 'html' or 'null' for plaintext
+     */
+    contentType: 'html'
+});
+</script>
+
 
       <script src="js/stickUp.min.js"></script>
         <script type="text/javascript">
@@ -699,6 +792,13 @@
     });
   </script>
 
+  <!-- <script type="text/javascript">
+    var typed = new Typed('.text', {
+  strings: ["First sentence.", "Second sentence."],
+  typeSpeed: 30
+});
+  </script> -->
+
 
 
 
@@ -720,8 +820,15 @@ particlesJS("particles-js", {"particles":{"number":{"value":60,"density":{"enabl
 <!-- As A jQuery Plugin -->
 
 <script src="/path/to/cdn/jquery.min.js"></script>
-
 <script src="js/simple-lightbox.jquery.min.js"></script>
+
+
+
+
+
+
+
+
 
 
 
